@@ -18,5 +18,9 @@ public class Calculator {
 	
 	public int sub(int i, int j){
 		return i-j;
+		foo(null);
+	}
+	public static void foo(string s){
+		return (s.toLowerCase());
 	}
 }
